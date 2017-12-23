@@ -34,6 +34,7 @@ type TimeEntry struct {
 	Tags        []string   `json:"tags,omitempty"`
 	Duronly     bool       `json:"duronly,omitempty"`
 	At          int        `json:"at,omitempty"`
+	Description string     `json:"description,omitempty"`
 }
 
 // TimeEntryResponse acts as a response wrapper where response returns
